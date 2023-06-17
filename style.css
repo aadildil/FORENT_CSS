@@ -1,0 +1,236 @@
+body {
+    background-color: #1f1f1f;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-left: 10px;
+  }
+  
+  header {
+    display: flex;
+  
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 18%;
+   
+    font-weight: bold;
+    font-size: 27px;
+  }
+  
+  .searchBox {
+    width: 45%;
+    display: flex;
+  
+
+  }
+  
+  .search {
+    border-style: none;
+    border-radius: 10px;
+    background-color: #262626;
+    
+    width: 100%;
+    padding-left: 10px;
+    
+    
+    
+    color: white;
+  }
+  
+  .search::placeholder {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+  }
+  
+  .buttonGroup {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+  }
+  
+  .headerButtons {
+    border-style: none;
+    background-color: #262626;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 30%;
+  
+    border-radius: 15px;
+  }
+  .about
+  {
+    padding-top: 20px;
+    background-color: #262626;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    border: 1px solid #000000; /* Border style */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+
+  }
+  .aboutContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:flex-start;
+  }
+  .aboutLeft{
+    margin-top: 10px;
+  }
+  .customList
+  {
+    list-style: none;
+  
+  }
+  #imgList
+  {
+    width: 30px;
+    height: 30px;
+    /* background-image: url(/june_contest_1/cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px 60px; */
+    position: absolute;
+    transform:translate(36%,36%);
+  }
+  .li1
+  {
+    
+    display: flex;
+    align-content: center;
+    position: relative;
+    margin-bottom: 10px;
+    
+  }
+  
+  .aboutRight
+  {
+    margin-top: 10px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #clockPNG
+  {
+   
+   
+   background-image: url(/june_contest_1/cart.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    background-size: 192px;
+   
+   width: 200px;
+   height: 200px;
+
+  }
+ 
+  #knowMore
+  {
+    box-sizing: border-box;
+    background-color: #fecb03;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 52.5px;
+    color:#262626;
+    border-style: none;
+    border-radius: 50px;
+    padding: 5px;
+    height: 60px;
+
+
+  }
+  .categories
+  {
+    align-content:center;
+    width: 100%;
+    
+  }
+  .cards
+  {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    color: #c4c4c4;
+
+  }
+  .cardsLine
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 11%;
+    margin-bottom: 50px;
+  }
+  .card
+  {
+    width: 25%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    border: 3px solid #262626;
+    border-radius: 10px;
+
+  }
+  .cardParagraph
+  {
+    font-weight:normal;
+    text-align: justify;
+  }
+
+  .cardKnowMore{
+    margin-top: 50px;
+    width: 45%;
+    background-color: #fecb03;
+  padding: 20px;
+    border-radius:125px;
+    color: #262626;
+    font-weight: bold;
+    margin-left: 55%;
+    border-style: none;
+  }
+
+  footer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #262626;
+    margin: 20px;
+    border-radius: 20px;
+    
+  }
+  tr
+  {
+    display: inline;
+  }
+.column1{
+  width: 50%;
+  font-weight: normal;
+  text-align: justify;
+  padding: 71px;
+}
+ 
+.siteMapList
+{
+  color: #c4c4c4;
+  font-size: medium;
+  text-decoration: none;
+
+}
